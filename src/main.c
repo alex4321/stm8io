@@ -1,3 +1,10 @@
+/**
+ * PD1 - PD3 - line switches (used for indicator with common cathode and keyboard collumns)
+ * PD4, PA1, PA2, PA3, PB4, PB5, PC3 - indicator segments
+ * PC4 - PC7 - matrix keyboard lines
+ * PD5,PD6 - UART
+ */
+
 #include <stm8s.h>
 #include "common.h"
 #include "uart.h"
